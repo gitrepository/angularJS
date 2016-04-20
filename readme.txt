@@ -22,3 +22,5 @@ Angular route: Setup basic state.
 #RTB08
 Angular route: Separate route file (route.js)
 
+#RTB09
+Angular route: Adding new routes.
