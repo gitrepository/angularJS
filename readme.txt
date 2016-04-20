@@ -24,3 +24,6 @@ Angular route: Separate route file (route.js)
 
 #RTB09
 Angular route: Adding new routes.
+
+#RTB10
+Angular Controller: Setup Home & About Controllers.

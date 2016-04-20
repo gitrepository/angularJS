@@ -4,11 +4,13 @@ angular.module('myApp')
         $stateProvider
             .state('home', {
                 url: '/',
-                templateUrl: 'templates/home.html'
+                templateUrl: 'templates/home.html',
+                controller: 'HomeCtrl'
             })
             .state('about', {
                 url: '/about',
-                templateUrl: 'templates/about.html'
+                templateUrl: 'templates/about.html',
+                controller: 'AboutCtrl'
             })
             .state('contact', {
                 url: '/contact',

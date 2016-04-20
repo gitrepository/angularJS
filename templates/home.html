@@ -1,1 +1,8 @@
-Home Template
+<h1>{{title}}</h1>
+<ul>
+    <li ng-repeat="item in items">{{item}}</li>
+</ul>
+<br/>
+<input type="text" ng-model="textVal" />{{textVal}}
+<br/>
+<select ng-model="selVal" ng-options="val for val in items"></select>
