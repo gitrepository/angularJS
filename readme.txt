@@ -1,3 +1,5 @@
 #RTB01
-Basic angular 1.x setup
+Basic AngularJS 1.x setup
 
+#RTB02
+Basic Bootstrap setup
