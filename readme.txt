@@ -9,3 +9,6 @@ Angular Module: Creating an angular module (myApp)
 
 #RTB04
 Angular Module: app.js
+
+#RTB05
+Bootstrap: Setup Header + footer
