@@ -19,3 +19,6 @@ Angular UI-ROUTER: Setup angular-ui-router.
 #RTB07
 Angular route: Setup basic state.
 
+#RTB08
+Angular route: Separate route file (route.js)
+
