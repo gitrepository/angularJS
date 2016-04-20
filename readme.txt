@@ -7,3 +7,5 @@ Basic Bootstrap setup
 #RTB03
 Angular Module: Creating an angular module (myApp)
 
+#RTB04
+Angular Module: app.js
