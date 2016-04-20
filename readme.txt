@@ -14,4 +14,8 @@ Angular Module: app.js
 Bootstrap: Setup Header + footer
 
 #RTB06
-Angular UI-ROUTER: Setup angular-ui-router
+Angular UI-ROUTER: Setup angular-ui-router.
+
+#RTB07
+Angular route: Setup basic state.
+
