@@ -8,18 +8,22 @@
     <script data-require="bootstrap.js@*" data-semver="3.3.6" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <!-- Angular -->
     <script data-require="angular.js@1.5.3" data-semver="1.5.3" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+
+    <script>
+        var app = angular.module('myApp', []);
+    </script>
 </head>
 
 <body>
     <div class="container">
         <div class="row">
-            <div ng-app="">
+            <div ng-app="myApp">
                 <p>Input something in the input box:</p>
                 <p>Name :
                     <input type="text" ng-model="name" placeholder="Enter name here">
                 </p>
                 <h2>Hello {{name}}</h2>
-                <h2>4/2 = {{4/2}}</h2>
+                <h2>4/3 = {{4/3}}</h2>
             </div>
         </div>
     </div>
