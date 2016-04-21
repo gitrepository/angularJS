@@ -5,7 +5,15 @@ angular.module('myApp')
             .state('home', {
                 url: '/',
                 templateUrl: 'templates/home.html',
-                controller: 'HomeCtrl'
+                controller: 'HomeCtrl',
+                resolve: {
+                    friends: ['$http', function($http) {
+                        return $http.get('/api/friends.json')
+                            .then(function(response) {
+                                return response.data;
+                            })
+                    }]
+                }
             })
             .state('about', {
                 url: '/about',

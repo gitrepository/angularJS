@@ -27,3 +27,6 @@ Angular route: Adding new routes.
 
 #RTB10
 Angular Controller: Setup Home & About Controllers.
+
+#RTB11
+Angular UI Resolve: Basic ui-router resolve to provide data inside a controller 
