@@ -37,3 +37,6 @@ Angular Service: Simple Factory TestSvc
 #RTB13
 Code Cleanup
 Use IFFI (function(){}();) ONLY when there are variables declared in the global namespace.
+
+#RTB14
+Function: User List JSONPlaceholder 
