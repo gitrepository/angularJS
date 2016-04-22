@@ -40,3 +40,6 @@ Use IFFI (function(){}();) ONLY when there are variables declared in the global 
 
 #RTB14
 Function: User List JSONPlaceholder 
+
+#RTB15
+Function: Custom Directive
