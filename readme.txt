@@ -33,3 +33,7 @@ Angular UI Resolve: Basic ui-router resolve to provide data inside a controller
 
 #RTB12
 Angular Service: Simple Factory TestSvc
+
+#RTB13
+Code Cleanup
+Use IFFI (function(){}();) ONLY when there are variables declared in the global namespace.

@@ -1,3 +1,4 @@
+(function(){
 angular.module('myApp')
     .config(['$urlRouterProvider', '$stateProvider', function($urlRouterProvider, $stateProvider) {
         $urlRouterProvider.otherwise('/');
@@ -21,4 +22,5 @@ angular.module('myApp')
                 url: '/contact',
                 templateUrl: 'templates/contact.html'
             });
-    }])
+    }])    
+}());
