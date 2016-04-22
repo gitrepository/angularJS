@@ -43,3 +43,6 @@ Function: User List JSONPlaceholder
 
 #RTB15
 Function: Custom Directive
+
+#RTB16
+Code Cleanup

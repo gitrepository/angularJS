@@ -2,7 +2,7 @@ angular.module('myApp')
     .directive('contactList', function(JSONPlaceholderSvc) {
         return {
             restrict: 'E',
-            templateUrl: 'templates/directives/contactList.html',
+            templateUrl: 'views/directives/contactList.html',
             link: function(scope, element, attrs) {
                 JSONPlaceholderSvc.getUsers()
                     .then(

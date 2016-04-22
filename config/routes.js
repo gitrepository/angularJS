@@ -5,7 +5,7 @@ angular.module('myApp')
         $stateProvider
             .state('home', {
                 url: '/',
-                templateUrl: 'templates/home.html',
+                templateUrl: 'views/home.html',
                 controller: 'HomeCtrl',
                 resolve: {
                     friends: ['TestSvc', function(TestSvc) {
@@ -15,12 +15,12 @@ angular.module('myApp')
             })
             .state('about', {
                 url: '/about',
-                templateUrl: 'templates/about.html',
+                templateUrl: 'views/about.html',
                 controller: 'AboutCtrl'
             })
             .state('contact', {
                 url: '/contact',
-                templateUrl: 'templates/contact.html'
+                templateUrl: 'views/contact.html'
             });
     }])    
 }());

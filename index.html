@@ -15,8 +15,8 @@
     <script src="config/routes.js"></script>
     <script src="controllers/HomeCtrl.js"></script>
     <script src="controllers/AboutCtrl.js"></script>
-    <script src="service/TestSvc.js"></script>
-    <script src="service/JSONPlaceholderSvc.js"></script>
+    <script src="services/TestSvc.js"></script>
+    <script src="services/JSONPlaceholderSvc.js"></script>
     <script src="directives/ContactListDirective.js"></script>
     
 </head>
@@ -24,10 +24,10 @@
 <body>
     <div class="container" ng-app="myApp">
         <div class="row">
-            <header ng-include="'templates/nav.html'"></header>
+            <header ng-include="'views/nav.html'"></header>
             <ui-view></ui-view>
             <br/><br/>
-            <footer ng-include="'templates/footer.html'"></footer>
+            <footer ng-include="'views/footer.html'"></footer>
         </div>
     </div>
 </body>
