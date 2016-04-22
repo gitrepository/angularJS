@@ -7,11 +7,8 @@ angular.module('myApp')
                 templateUrl: 'templates/home.html',
                 controller: 'HomeCtrl',
                 resolve: {
-                    friends: ['$http', function($http) {
-                        return $http.get('/api/friends.json')
-                            .then(function(response) {
-                                return response.data;
-                            })
+                    friends: ['TestSvc', function(TestSvc) {
+                        return TestSvc.getJsonObj();
                     }]
                 }
             })

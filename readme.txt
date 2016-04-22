@@ -30,3 +30,6 @@ Angular Controller: Setup Home & About Controllers.
 
 #RTB11
 Angular UI Resolve: Basic ui-router resolve to provide data inside a controller 
+
+#RTB12
+Angular Service: Simple Factory TestSvc
